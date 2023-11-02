@@ -3,37 +3,95 @@
  *************************************************/
 
 
- :root {
-     font-family: 'PT Sans', sans-serif;
- }
- 
- *,
- *::before,
- *::after {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+:root {
+    font-family: 'PT Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
 
 
- /* DESKTOP VERSION */
- /* MAIN CONTENT STYLE */
- #main-content{
-    background-color:#141922;
+/* DESKTOP VERSION */
+/* MAIN CONTENT STYLE */
+#main-content {
+    background-color: blue;
     height: calc(100vh - 100px);
- }
+}
 
- #side-bar{
-    background-color:#000000;
+#side-bar {
+    background-color: #000000;
     height: 100%;
     width: 200px;
- }
+}
 
 
- /* PLAYER STYLE */
- #player{
-    background-color:#282828;
+/* CONTENT STYLE */
+
+#content{
+    background-color:#141922;
+    width: calc(100vw - 200px);
+}
+
+#nav-fix{
+    background-color: #080b12;
     height: 100px;
- }
+    width: 100%;
+}
+
+ul.flex{
+    justify-content: center;
+}
+
+#sub-nav ul li{
+    list-style: none;
+    color: white;
+    padding: 15px;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
 
 
+    /* DEBUG */
+    background-color:blueviolet;
+}
+
+.title{
+    color: white;
+    padding: 10px 0;
+}
+
+.title h1{
+    padding: 10px 0;
+}
+
+.sub-title{
+    color: #707377;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/* PLAYER STYLE */
+#player {
+    background-color: #282828;
+    height: 100px;
+}
