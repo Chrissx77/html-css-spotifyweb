@@ -1,7 +1,7 @@
 /*************************************************
     RESET STYLES
  *************************************************/
- 
+
 
  :root {
      font-family: 'PT Sans', sans-serif;
@@ -14,3 +14,26 @@
      padding: 0;
      box-sizing: border-box;
  }
+
+
+ /* DESKTOP VERSION */
+ /* MAIN CONTENT STYLE */
+ #main-content{
+    background-color:#141922;
+    height: calc(100vh - 100px);
+ }
+
+ #side-bar{
+    background-color:#000000;
+    height: 100%;
+    width: 200px;
+ }
+
+
+ /* PLAYER STYLE */
+ #player{
+    background-color:#282828;
+    height: 100px;
+ }
+
+
