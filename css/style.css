@@ -38,13 +38,17 @@
 
 #content{
     background-color:#141922;
+    padding-top: 100px;
     width: calc(100vw - 200px);
+    overflow-y: auto;
 }
 
 #nav-fix{
-    background-color: #080b12;
+    background-color: #080b127c;
     height: 100px;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 ul.flex{
@@ -63,8 +67,8 @@ ul.flex{
 }
 
 .image{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 10px 0;
 
 
@@ -85,6 +89,12 @@ ul.flex{
     color: #707377;
     font-size: 0.8rem;
 }
+
+.col-cover{
+    width: calc(100% / 6);
+}
+
+
 
 
 
