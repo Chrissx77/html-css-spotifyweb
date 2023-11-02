@@ -19,6 +19,10 @@
     display: flex;
 }
 
+.text-left{
+    text-align: left;
+}
+
 
 /* DESKTOP VERSION */
 /* MAIN CONTENT STYLE */
@@ -43,6 +47,14 @@
     overflow-y: auto;
 }
 
+section{
+    padding: 30px 0;
+}
+
+.row{
+    display: flex;
+}
+
 #nav-fix{
     background-color: #080b127c;
     height: 100px;
@@ -61,10 +73,17 @@ ul.flex{
     padding: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .container{
     width: 95%;
     margin: 0 auto;
 }
+
+
 
 .image{
     width: 250px;
@@ -78,7 +97,7 @@ ul.flex{
 
 .title{
     color: white;
-    padding: 10px 0;
+    text-align: center;
 }
 
 .title h1{
@@ -88,10 +107,26 @@ ul.flex{
 .sub-title{
     color: #707377;
     font-size: 0.8rem;
+    text-align: center;
 }
 
 .col-cover{
     width: calc(100% / 6);
+}
+
+
+/* create-for-you STYLE */
+.create-for-you div.sub-title{
+    text-align: left;
+}
+
+/* popolar STYLE */
+.popolar div.sub-title{
+    text-align: left;
+}
+
+.popolar div.for-you .row div.col-cover div.image{
+    border-radius: 50%;
 }
 
 
