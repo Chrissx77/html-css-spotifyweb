@@ -126,7 +126,7 @@ a {
 }
 
 .image img:hover + .play-btn {
-    display: block
+    display: block;
 }
 
 .image img:hover{
