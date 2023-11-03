@@ -85,8 +85,16 @@ ul.flex{
 
 #sub-nav ul li{
     list-style: none;
-    color: white;
+    color: #707377;
     padding: 15px;
+}
+
+#sub-nav ul li a{
+    color: #707377;
+}
+
+#sub-nav ul li a:hover{
+    color: #c3cad3;
 }
 
 a{
@@ -105,11 +113,22 @@ a{
     width: 250px;
     height: 250px;
     margin: 10px 0;
+    border-radius: 50%;
 
-
-    /* DEBUG */
-    background-color:blueviolet;
 }
+
+.image img{
+    width: 100%;
+}
+
+.image img.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 
 .title{
     color: white;
