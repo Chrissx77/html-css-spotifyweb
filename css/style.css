@@ -84,10 +84,6 @@ ul.flex {
     padding: 15px;
 }
 
-#sub-nav ul li{
-    width: calc(100% / 5);
-}
-
 #sub-nav ul li a {
     color: #707377;
     font-size: 0.8rem;
@@ -175,12 +171,53 @@ a {
     height: 100px;
 }
 
-
 /* ****************************************************** */
 /* TABLET VERSION */
 @media all and (max-width: 878px) {
     .col{
         width: calc(100% / 4 - 22px);
+    }
+
+    #sub-nav ul li{
+        width: calc(100% / 5);
+        padding: 10px;
+    }
+
+}
+
+
+/* ****************************************************** */
+/* MOBILE VERSION */
+@media all and (max-width: 639px) {
+    .col{
+        width: calc(100% / 2 - 22px);
+    }
+
+    #sub-nav ul li{
+        width: calc(100% / 3);
+    }
+
+}
+
+
+/* ****************************************************** */
+/* SMALL-MOBILE VERSION */
+@media all and (max-width: 552px) {
+    .col{
+        width: calc(100% / 2 - 22px);
+    }
+
+    #sub-nav ul li{
+        width: calc(100% / 4);
+        padding: 5px;
+    }
+
+    #side-bar {
+        width: 50px;
+    }
+
+    #content {
+        width: calc(100vw - 50px);
     }
 
 }
