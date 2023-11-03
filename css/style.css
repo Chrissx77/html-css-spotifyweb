@@ -23,6 +23,16 @@
     text-align: left;
 }
 
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+span{
+    display: block;
+    
+}
+
 
 /* DESKTOP VERSION */
 /* MAIN CONTENT STYLE */
@@ -38,7 +48,7 @@
     background-color: #141922;
     padding-top: 100px;
     width: calc(100vw - 200px);
-    overflow-y: auto;
+    overflow-y:auto;
 }
 
 section {
@@ -78,8 +88,8 @@ ul.flex {
     flex-wrap: wrap;
 }
 
+
 #sub-nav ul li {
-    list-style: none;
     color: #707377;
     padding: 15px;
 }
@@ -161,8 +171,59 @@ a {
     background-color: #000000;
     height: 100%;
     width: 200px;
-    z-index: 500;
+    z-index: 500;   
+    color: white;
+
 }
+
+.container-side div{
+    padding: 15px;
+}
+
+.wrap-up{
+
+    height: 260px;
+}
+
+.wrap-middle{
+    height: calc(100vh - 490px);
+    overflow-y:auto;
+}
+
+.wrap-bottom{
+    height: 110px;
+}
+
+.container-side div.btn-section,
+.container-side div.list-playlist,
+.container-side div.add-playlist a{
+    font-size: 0.7rem;
+}
+
+.list-player ul{
+    height: 100vh;
+}
+
+.logo{
+    width: 80%;
+}
+
+.user{
+    padding: 5px 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+a{
+    color: #707377;
+    font-weight: bold;
+}
+
+span{
+    color: #707377;
+    font-weight: bold;
+}
+
 
 /* ***************************************************** */
 /* PLAYER STYLE */
