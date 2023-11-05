@@ -330,10 +330,12 @@ span {
 
 .icon-player-right span{
     padding: 0 10px;
+    width: calc(100% / 4);
 }
 
+
+
 .line{
-    width: 200px;
     height: 5px;
     background-color: #707377;
     border-radius: 10px;
