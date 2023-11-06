@@ -106,10 +106,12 @@ ul.flex {
 #sub-nav ul li a {
     color: #707377;
     font-size: 0.8rem;
+    text-decoration: none;
 }
 
 #sub-nav ul li a:hover {
     color: #c3cad3;
+
 }
 
 a {
@@ -159,19 +161,6 @@ a {
 div.play-btn:hover+img {
     filter: brightness(0.4);
 }
-
-
-
-
-
-
-
-
-/* .play-btn:hover+img {
-    filter: brightness(0.4);
-} */
-
-
 
 .image img.circle {
     border-radius: 50%;
@@ -227,7 +216,8 @@ div.play-btn:hover+img {
 }
 
 .container-side div {
-    padding: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .container-side div:last-child {
@@ -308,6 +298,30 @@ span {
     display: none;
 }
 
+.select{
+    position: relative;
+}
+
+.select a{
+    color: white;
+}
+
+.tag-select{
+    height: 100%;
+    left: -28px;
+    top: 0;
+    background-color: #9be52d;
+    position: absolute;
+}
+
+.tag-select-sub-nav{
+    width: 25%;
+    height: 2px;
+    left: 40%;
+    bottom: 10px;
+    background-color: #9be52d;
+    position: absolute;
+}
 
 /* ***************************************************** */
 /* PLAYER STYLE */
@@ -323,7 +337,6 @@ span {
     display: flex;
     height: 100%;
     padding: 0 20px;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -407,6 +420,7 @@ span {
 .sub-line:hover{
     background-color: #9be52d;
     position: relative;
+    cursor: pointer;
 }
 
 .sub-line i{
@@ -418,6 +432,7 @@ span {
 
 .sub-line:hover i{
     display: block;
+    cursor: pointer;
 }
 
 
@@ -434,6 +449,7 @@ span {
 .bar-music span.line span.sub-line:hover {
     background-color: #9be52d;
     position: relative;
+    cursor: pointer;
 }
 
 .bar-music span.line span.sub-line i {
