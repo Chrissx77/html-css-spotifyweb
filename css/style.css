@@ -142,7 +142,6 @@ a {
 
 .play-btn {
     position: absolute;
-    z-index: 700;
     font-size: 25px;
     left: 50%;
     top: 50%;
@@ -150,7 +149,7 @@ a {
     display: none;
 }
 
-.image:hover {
+.image:hover img {
     filter: brightness(0.4);
 }
 
