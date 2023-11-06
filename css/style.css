@@ -88,7 +88,11 @@ nav a {
     border-radius: 30px;
     padding: 15px 30px;
     font-size: 0.8rem;
+    transition: 0.5s;
+}
 
+nav a:hover{
+    transform: scale(1.1);
 }
 
 
@@ -274,7 +278,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #ffff;
 }
 
 span {
@@ -369,6 +373,12 @@ span {
 
 .icon-player-left i {
     padding: 0 3px;
+    color: #707377;
+}
+
+.icon-player-left i:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .icon-player-right {
@@ -394,6 +404,14 @@ span {
 .icon-music {
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.icon-music span {
+    transition: 0.5s;
+}
+
+.icon-music span:hover {
+    transform: scale(1.2);
 }
 
 .bar-music {
@@ -434,10 +452,6 @@ span {
     display: block;
     cursor: pointer;
 }
-
-
-
-
 
 .bar-music span.line span.sub-line {
     width: 30%;
