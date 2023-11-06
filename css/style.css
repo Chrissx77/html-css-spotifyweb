@@ -295,6 +295,7 @@ span {
     height: 100px;
     color: white;
     font-weight: bold;
+    z-index: 600;
 }
 
 .container-player {
@@ -330,15 +331,37 @@ span {
 
 .icon-player-right span{
     padding: 0 10px;
-    width: calc(100% / 4);
+    /* width: calc(100% / 4); */
 }
-
-
 
 .line{
     height: 5px;
+    width: 150px;
     background-color: #707377;
     border-radius: 10px;
+}
+
+.icon-music{
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.bar-music{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-music span{
+    padding: 0 20px;
+}
+
+.bar-music span.line{
+    width: 600px;
+}
+
+.bar-music span{
+    padding: 0 10px;
 }
 
 
